@@ -14,10 +14,14 @@
 		E5E013CB1D38B30400065894 /* Beginning-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5E013C51D38B30400065894 /* Beginning-Info.plist */; };
 		E5E013CC1D38B30400065894 /* OpenGLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E013C61D38B30400065894 /* OpenGLView.swift */; };
 		E5E013CD1D38B30400065894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E013C71D38B30400065894 /* ViewController.swift */; };
+		E5E013D51D38B44300065894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E013D41D38B44300065894 /* AppDelegate.swift */; };
+		E5E013D71D38B44300065894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E013D61D38B44300065894 /* ViewController.swift */; };
+		E5E013D91D38B44300065894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E013D81D38B44300065894 /* Assets.xcassets */; };
+		E5E013DC1D38B44300065894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E013DA1D38B44300065894 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E5777D701D2E3A1A0045DB65 /* Beginning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beginning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5777D701D2E3A1A0045DB65 /* SwiftOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5777D841D2E3E730045DB65 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		E5E013C11D38B30400065894 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E013C21D38B30400065894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,6 +29,12 @@
 		E5E013C51D38B30400065894 /* Beginning-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Beginning-Info.plist"; sourceTree = "<group>"; };
 		E5E013C61D38B30400065894 /* OpenGLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGLView.swift; sourceTree = "<group>"; };
 		E5E013C71D38B30400065894 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5E013D21D38B44200065894 /* FirstVertex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstVertex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E013D41D38B44300065894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5E013D61D38B44300065894 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5E013D81D38B44300065894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5E013DB1D38B44300065894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5E013DD1D38B44300065894 /* FirstVertex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstVertex-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E5E013CF1D38B44200065894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -43,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				E5E013C01D38B30400065894 /* Beginning */,
+				E5E013D31D38B44200065894 /* FirstVertex */,
 				E5777D711D2E3A1A0045DB65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,7 +68,8 @@
 		E5777D711D2E3A1A0045DB65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5777D701D2E3A1A0045DB65 /* Beginning.app */,
+				E5777D701D2E3A1A0045DB65 /* SwiftOpenGL.app */,
+				E5E013D21D38B44200065894 /* FirstVertex.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +98,18 @@
 			path = SwiftOpenGL/Beginning;
 			sourceTree = "<group>";
 		};
+		E5E013D31D38B44200065894 /* FirstVertex */ = {
+			isa = PBXGroup;
+			children = (
+				E5E013D41D38B44300065894 /* AppDelegate.swift */,
+				E5E013D61D38B44300065894 /* ViewController.swift */,
+				E5E013D81D38B44300065894 /* Assets.xcassets */,
+				E5E013DA1D38B44300065894 /* Main.storyboard */,
+				E5E013DD1D38B44300065894 /* FirstVertex-Info.plist */,
+			);
+			path = FirstVertex;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,7 +127,24 @@
 			);
 			name = Beginning;
 			productName = SwiftOpenGL;
-			productReference = E5777D701D2E3A1A0045DB65 /* Beginning.app */;
+			productReference = E5777D701D2E3A1A0045DB65 /* SwiftOpenGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5E013D11D38B44200065894 /* FirstVertex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E013DE1D38B44300065894 /* Build configuration list for PBXNativeTarget "FirstVertex" */;
+			buildPhases = (
+				E5E013CE1D38B44200065894 /* Sources */,
+				E5E013CF1D38B44200065894 /* Frameworks */,
+				E5E013D01D38B44200065894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstVertex;
+			productName = FirstVertex;
+			productReference = E5E013D21D38B44200065894 /* FirstVertex.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,9 +160,12 @@
 					E5777D6F1D2E3A1A0045DB65 = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					E5E013D11D38B44200065894 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 				};
 			};
-			buildConfigurationList = E5777D6B1D2E3A1A0045DB65 /* Build configuration list for PBXProject "Beginning" */;
+			buildConfigurationList = E5777D6B1D2E3A1A0045DB65 /* Build configuration list for PBXProject "SwiftOpenGL" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,6 +179,7 @@
 			projectRoot = "";
 			targets = (
 				E5777D6F1D2E3A1A0045DB65 /* Beginning */,
+				E5E013D11D38B44200065894 /* FirstVertex */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +192,15 @@
 				E5E013C91D38B30400065894 /* Assets.xcassets in Resources */,
 				E5E013CB1D38B30400065894 /* Beginning-Info.plist in Resources */,
 				E5E013CA1D38B30400065894 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E013D01D38B44200065894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E013D91D38B44300065894 /* Assets.xcassets in Resources */,
+				E5E013DC1D38B44300065894 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +217,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E5E013CE1D38B44200065894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E013D71D38B44300065894 /* ViewController.swift in Sources */,
+				E5E013D51D38B44300065894 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -163,6 +233,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				E5E013C41D38B30400065894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5E013DA1D38B44300065894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5E013DB1D38B44300065894 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -260,7 +338,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftOpenGL/Beginning/Beginning-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.pawelropa.SwiftOpenGL;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftOpenGL;
 			};
 			name = Debug;
 		};
@@ -272,6 +350,30 @@
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftOpenGL/Beginning/Beginning-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.pawelropa.SwiftOpenGL;
+				PRODUCT_NAME = SwiftOpenGL;
+			};
+			name = Release;
+		};
+		E5E013DF1D38B44300065894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstVertex/FirstVertex-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.pawelropa.FirstVertex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5E013E01D38B44300065894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstVertex/FirstVertex-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.pawelropa.FirstVertex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -279,7 +381,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5777D6B1D2E3A1A0045DB65 /* Build configuration list for PBXProject "Beginning" */ = {
+		E5777D6B1D2E3A1A0045DB65 /* Build configuration list for PBXProject "SwiftOpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5777D7D1D2E3A1A0045DB65 /* Debug */,
@@ -296,6 +398,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		E5E013DE1D38B44300065894 /* Build configuration list for PBXNativeTarget "FirstVertex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E013DF1D38B44300065894 /* Debug */,
+				E5E013E01D38B44300065894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
